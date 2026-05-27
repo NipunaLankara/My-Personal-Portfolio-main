@@ -1,0 +1,275 @@
+/* SkillsAndTools.css */
+.skills-tools{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+.skills-tools-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  padding: 80px 20px;
+  margin: 0 100px;
+  background-color: #1e1a1d; /* same dark background as services */
+  border-radius: 12px;
+  width: 100%;
+}
+.skills-tools-format {
+  background: black;
+  border-radius: 10px;
+  border: 2px solid white;
+  width: 180px;
+  padding: 24px 20px;
+  text-align: center;
+  transition: background 0.4s ease, border-color 0.4s ease;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.skills-tools-format:hover {
+  border-color: tomato;
+  background-image: linear-gradient(45deg, #ff6347, #b923e1);
+  transition: 0.3s;
+  transform: scale(1.10);
+}
+.skills-tools-icon {
+  font-size: 48px;
+  color: tomato; /* tomato colored icons */
+  transition: color 0.4s ease;
+}
+.skills-tools-format:hover .skills-tools-icon {
+  color: #fff; /* icon turns white on hover */
+}
+.skills-tools-format h3 {
+  font-size: 1.2rem;
+  margin: 0;
+  color: white;
+  font-weight: 600;
+}
+.skills-tools-title{
+    position: relative;
+}
+.skills-tools-title h1{
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+}
+.skills-tools-title img{
+   position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+/* ===== RESPONSIVE DESIGN ===== */
+
+/* Large Desktop */
+@media screen and (max-width: 1400px) {
+    .skills-tools {
+        margin: 60px 120px;
+        gap: 60px;
+    }
+    
+    .skills-tools-title h1 {
+        font-size: 70px;
+    }
+    
+    .skills-tools-container {
+        margin: 0 80px;
+        padding: 70px 20px;
+    }
+}
+
+/* Desktop */
+@media screen and (max-width: 1200px) {
+    .skills-tools {
+        margin: 50px 80px;
+        gap: 50px;
+    }
+    
+    .skills-tools-title h1 {
+        font-size: 60px;
+    }
+    
+    .skills-tools-container {
+        margin: 0 60px;
+        padding: 60px 20px;
+        gap: 25px;
+    }
+    
+    .skills-tools-format {
+        width: 160px;
+        padding: 20px 16px;
+    }
+}
+
+/* Tablet */
+@media screen and (max-width: 992px) {
+    .skills-tools {
+        margin: 40px 50px;
+        gap: 40px;
+    }
+    
+    .skills-tools-title h1 {
+        font-size: 50px;
+        padding: 0px 20px;
+    }
+    
+    .skills-tools-container {
+        margin: 0 40px;
+        padding: 50px 15px;
+        gap: 20px;
+    }
+    
+    .skills-tools-format {
+        width: 150px;
+        padding: 18px 14px;
+        gap: 12px;
+    }
+    
+    .skills-tools-icon {
+        font-size: 42px;
+    }
+    
+    .skills-tools-format h3 {
+        font-size: 1.1rem;
+    }
+}
+
+/* Small Tablet */
+@media screen and (max-width: 768px) {
+    .skills-tools {
+        margin: 30px 30px;
+        gap: 30px;
+    }
+    
+    .skills-tools-title h1 {
+        font-size: 40px;
+        padding: 0px 15px;
+    }
+    
+    .skills-tools-container {
+        margin: 0 20px;
+        padding: 40px 15px;
+        gap: 18px;
+    }
+    
+    .skills-tools-format {
+        width: 140px;
+        padding: 16px 12px;
+        gap: 10px;
+    }
+    
+    .skills-tools-icon {
+        font-size: 38px;
+    }
+    
+    .skills-tools-format h3 {
+        font-size: 1rem;
+    }
+}
+
+/* Large Mobile */
+@media screen and (max-width: 600px) {
+    .skills-tools {
+        margin: 25px 20px;
+        gap: 25px;
+    }
+    
+    .skills-tools-title h1 {
+        font-size: 36px;
+        padding: 0px 10px;
+    }
+    
+    .skills-tools-container {
+        margin: 0 10px;
+        padding: 35px 10px;
+        gap: 15px;
+    }
+    
+    .skills-tools-format {
+        width: 140px;
+        padding: 20px 15px;
+    }
+    
+    .skills-tools-icon {
+        font-size: 36px;
+    }
+    
+    .skills-tools-format h3 {
+        font-size: 1rem;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+    .skills-tools {
+        margin: 20px 15px;
+        gap: 20px;
+    }
+    
+    .skills-tools-title h1 {
+        font-size: 32px;
+        padding: 0px 8px;
+        text-align: center;
+    }
+    
+    .skills-tools-container {
+        margin: 0 5px;
+        padding: 30px 8px;
+        gap: 12px;
+    }
+    
+    .skills-tools-format {
+        width: 130px;
+        padding: 18px 12px;
+        gap: 8px;
+    }
+    
+    .skills-tools-icon {
+        font-size: 32px;
+    }
+    
+    .skills-tools-format h3 {
+        font-size: 0.9rem;
+    }
+}
+
+/* Extra Small Mobile */
+@media screen and (max-width: 360px) {
+    .skills-tools {
+        margin: 15px 10px;
+        gap: 18px;
+    }
+    
+    .skills-tools-title h1 {
+        font-size: 28px;
+        padding: 0px 5px;
+    }
+    
+    .skills-tools-container {
+        margin: 0;
+        padding: 25px 5px;
+        gap: 10px;
+    }
+    
+    .skills-tools-format {
+        width: 120px;
+        padding: 15px 10px;
+        gap: 6px;
+    }
+    
+    .skills-tools-icon {
+        font-size: 28px;
+    }
+    
+    .skills-tools-format h3 {
+        font-size: 0.8rem;
+    }
+}
