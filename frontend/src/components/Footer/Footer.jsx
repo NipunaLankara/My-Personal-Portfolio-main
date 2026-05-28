@@ -1,7 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import profile_img from '../../assets/profile_img 11.jpg';
-import footer_logo from '../../assets/footer_logo.png';
+
 import { FaLinkedin, FaFacebook, FaInstagram } from 'react-icons/fa';
 
 const Footer = () => {
