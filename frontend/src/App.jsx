@@ -18,7 +18,7 @@ const App = () => {
      
      <MyWork/>
      <SkillsAndTools />
-     <Certificate/>
+     {/*<Certificate/>*/}
      <Contact/>
      <Footer/>
     
