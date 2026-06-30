@@ -4,20 +4,13 @@ import theme_pattern from "../../assets/theme_pattern.svg";
 import { FaCertificate } from "react-icons/fa";
 
 // Import your certificate images here (add your own image files in assets/certificates/)
-import cert1 from "../../assets/frontend.png";
-import cert2 from "../../assets/serverside.png";
-import cert3 from "../../assets/react.png";
-import cert4 from "../../assets/aws.png";
-import cert5 from "../../assets/sql.png";
-import cert6 from "../../assets/python.png";
-import cert7 from "../../assets/java.png";
-import cert8 from "../../assets/figma.png";
-import cert9 from "../../assets/projectscope.png";
+import cert1 from "../../assets/python.png";
+
 
 const certificates = [
   {
-    year: "2025",
-    title: "Front End Web Development",
+    year: "2026",
+    title: "Python For Beginners",
     issuer: "University of Moratuwa E-Learning",
     image: cert1,
   },
