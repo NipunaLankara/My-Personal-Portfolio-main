@@ -4,7 +4,8 @@ import theme_pattern from "../../assets/theme_pattern.svg";
 import { FaCertificate } from "react-icons/fa";
 
 // Import your certificate images here (add your own image files in assets/certificates/)
-import cert1 from "../../assets/python.png";
+import cart1 from "../../assets/python.png";
+import cart2 from "../../assets/nodejs.png"
 
 
 const certificates = [
@@ -12,8 +13,14 @@ const certificates = [
     year: "2026",
     title: "Python For Beginners",
     issuer: "University of Moratuwa E-Learning",
-    image: cert1,
+    image: cart1,
   },
+    {
+        year: "2026",
+        title: "Server-side Web Programming",
+        issuer: "University of Moratuwa E-Learning",
+        image: cart2,
+    },
 ];
 
 const Certificate = () => {
