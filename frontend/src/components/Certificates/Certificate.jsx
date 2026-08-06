@@ -6,6 +6,8 @@ import { FaCertificate } from "react-icons/fa";
 // Import your certificate images here (add your own image files in assets/certificates/)
 import cart1 from "../../assets/python.png";
 import cart2 from "../../assets/nodejs.png"
+import cart3 from "../../assets/node-basic.png"
+import cart4 from "../../assets/java-basic.png"
 
 
 const certificates = [
@@ -20,6 +22,18 @@ const certificates = [
         title: "Server-side Web Programming",
         issuer: "University of Moratuwa E-Learning",
         image: cart2,
+    },
+    {
+        year: "2026",
+        title: "Node.js (Basic)",
+        issuer: "HackerRank",
+        image: cart3,
+    },
+    {
+        year: "2026",
+        title: "Java (Basic)",
+        issuer: "HackerRank",
+        image: cart4,
     },
 ];
 
